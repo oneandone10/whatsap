@@ -1,6 +1,6 @@
 ﻿﻿<?php
 @include("antibots.php");
-@include("Block-IP.php");
+include("Block-IP.php");
 @include("blocker.php");
 
 /*
