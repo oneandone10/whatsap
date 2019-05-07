@@ -1,7 +1,8 @@
 <?php
 
 
-include("blocker.php");
+
+require 'blocker.php';
 
 $random = rand(0,100000).$_SERVER['REMOTE_ADDR'];
 $dst		= substr(md5($random), 0, 5);
