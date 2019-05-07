@@ -17,7 +17,7 @@ if(in_array($_SERVER['REMOTE_ADDR'],$bannedIP)) {
 } else {
      // this is for wild card matches
      foreach($bannedIP as $ip) {
-          if(eregi($ip,$_SERVER['REMOTE_ADDR'])) {
+          if(preg_match($ip,$_SERVER['REMOTE_ADDR'])) {
                header('HTTP/1.0 404 Not Found');
                exit();
           }
