@@ -10,7 +10,7 @@
  Ask for updates premiumers(at)gmail.com ;)
 */
 
-$rezltMail = "wh004mi@zoho.com"; // Ur Email Here
+
 
 $TxtStore  = "0";   // (0/1) turn ON/OFF txt report
 
